@@ -32,20 +32,13 @@ h2 {
   margin: 0;
 }
 
+
+
 .left-bar {
   height: 100%;
   width: 220px;
   left: 0;
   margin-left: 40px;
-  top: 0;
-  position: absolute;
-}
-
-.right-bar {
-  background-color: blanchedalmond;
-  width: 220px;
-  height: 100%;
-  right: 0;
   top: 0;
   position: absolute;
 }
@@ -57,18 +50,11 @@ h2 {
 .gq {
   background-color: #140D20;
   margin-top: 40px;
-  width: 220px;
+  width: 228px;
   height: 300px;
   border-radius: 20px;
   position: relative;
-}
-
-@supports (mask-image: paint(smooth-corners)) {
-  .gq.is-loaded {
-    border-radius: 0;
-    mask-image: paint(smooth-corners);
-    --smooth-corners: 20;
-  }
+  margin-left: -4px;
 }
 
 .quest {
@@ -78,12 +64,10 @@ h2 {
   height: 200px;
 }
 
-
-
 .raiced {
   color: #FFFFFF;
   height: 40px;
-  width: 84px;
+  width: 86px;
   background: #7125FF;
   font-family: supria-sans, sans-serif;
   font-size: 16px;
@@ -106,7 +90,7 @@ h2 {
 .flat {
   color: #FFFFFF;
   height: 40px;
-  width: 84px;
+  width: 86px;
   background: #251938;
   font-family: supria-sans, sans-serif;
   font-size: 16px;
@@ -169,6 +153,72 @@ p.copyright {
 .feedback a {
   border: none;
 }
+
+
+
+
+.right-bar {
+  width: 220px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  margin-right: 40px;
+}
+
+.calendar {
+  margin-top: 40px;
+}
+
+.days {
+ padding: 0;
+ margin: 0;
+ margin-top: 15px;
+ margin-left: -6px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: #DFDAE8;
+  position: relative;
+}
+
+.days li .active {
+  border-radius: 50%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #7125FF;
+  color: white !important;
+}
+
+.medal {
+  background: #7125FF;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  position: absolute;
+  left: 44%;
+  margin-top: 2px;
+}
+
+.days li .old-new {
+  color: #433855;
+}
+
+
+
+
+
+
+
+
 
 
 
