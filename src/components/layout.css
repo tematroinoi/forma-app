@@ -131,8 +131,8 @@ p {
 
 .about p {
   color: #433855;
-  font-size: 12px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 20px;
   margin: 0;
   margin-top: 15px;
 }
@@ -329,8 +329,3 @@ p.copyright {
   left: 0;
   right: 0;
 }
-
-
-
-
-
