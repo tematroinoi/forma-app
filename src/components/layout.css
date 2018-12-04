@@ -72,16 +72,19 @@ p {
 }
 
 .quest {
-  padding: 20px;
+  padding: 24px 20px 20px 20px;
   width: 180px;
-  position: absolute;
   height: 200px;
+}
+
+.changeQ {
+  margin-top: 8px;
 }
 
 .raiced {
   color: #FFFFFF;
   height: 40px;
-  width: 86px;
+  width: 88px;
   background: #7125FF;
   font-family: supria-sans, sans-serif;
   font-size: 16px;
@@ -104,7 +107,7 @@ p {
 .flat {
   color: #FFFFFF;
   height: 40px;
-  width: 86px;
+  width: 88px;
   background: #251938;
   font-family: supria-sans, sans-serif;
   font-size: 16px;
@@ -180,7 +183,7 @@ p.copyright {
 }
 
 .calendar {
-  margin-top: 40px;
+  margin-top: 42px;
 }
 
 .days {

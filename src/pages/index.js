@@ -15,7 +15,9 @@ const IndexPage = () => (
       <div className='gq'>
         <div className='quest' id='qestion'> 
           <h1>Are you clean today?</h1>
+          <div className='changeQ'>
           <Link to='#'>Change the question</Link>
+          </div>
         </div>
         <div> 
           <button className='raiced' id='yes'>
@@ -51,46 +53,6 @@ const IndexPage = () => (
         </Link>
       </div>
     </div>
-
-    <div className='main'>
-
-      <div className='badget'>
-        <img src={require('../images/medal.png')} width='460px' />
-      </div>
-
-      <div className='cheers'>
-        <p>This is your last badget. Earned 27/11/2018</p>
-        <div className='text'>
-          <h3>Be proud and share your resault 😎</h3>
-        </div>
-
-        <div className='social'>
-          <ul className='socialIcon'>
-            <li>
-              <Link to='#'>
-                <img src={require('../images/facebook.svg')} width='18px' />
-              </Link>
-            </li>
-            <li>
-              <Link to='#'>
-                <img src={require('../images/twitter.svg')} width='21px' />
-              </Link>
-            </li>
-            <li>
-              <Link to='#'>
-                <img src={require('../images/instagram.svg')} width='18px' />
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        <div className='credits'>
-        <p>Design and code by <Link to='tematroinoi.com'>Artem Troinoi</Link></p>
-        </div>
-
-      </div>
-    </div>
-
 
     <div className='right-bar'>
       <div className='calendar'>
@@ -180,6 +142,47 @@ const IndexPage = () => (
       </div>
 
     </div>
+
+
+    <div className='main'>
+
+      <div className='badget'>
+        <img src={require('../images/medal.png')} width='460px' />
+      </div>
+
+      <div className='cheers'>
+        <p>This is your last badget. Earned 27/11/2018</p>
+        <div className='text'>
+          <h3>Be proud and share your resault 😎</h3>
+        </div>
+
+        <div className='social'>
+          <ul className='socialIcon'>
+            <li>
+              <Link to='#'>
+                <img src={require('../images/facebook.svg')} width='18px' />
+              </Link>
+            </li>
+            <li>
+              <Link to='#'>
+                <img src={require('../images/twitter.svg')} width='21px' />
+              </Link>
+            </li>
+            <li>
+              <Link to='#'>
+                <img src={require('../images/instagram.svg')} width='18px' />
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className='credits'>
+        <p>Design and code by <Link to='tematroinoi.com'>Artem Troinoi</Link></p>
+        </div>
+
+      </div>
+      </div>
+
 
 
   </div>
