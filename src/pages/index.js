@@ -100,6 +100,48 @@ const IndexPage = () => (
            </ul>
         </div>
       </div>
+
+      <div className='goal'>
+        <div className='goalDays'>
+            <h3>Cuurent goal is 28 days 🤘</h3>
+        </div>
+        <div className='loader'>
+          <div className='loaderActive'>
+          </div>
+        </div>
+        <div className='counter'>
+          <div className='changeGoal'>
+          <Link to='#'>Change goal</Link>
+          </div>
+          <div className='count'>
+            <p>18/28</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='long'>
+        <div className='path'>
+          <h3>Longest path is 39 days</h3>
+        </div>
+          <p>It was 12/05/2018 — 31/06/2018</p>
+      </div>
+
+      <div className='total'>
+        <div className='totalCount'>
+          <h3>In total 284 badgets earned by incredible hard work</h3>
+        </div>
+          <Link to='#'>View it all</Link>
+      </div>
+
+      <div className='feedback'>
+          <div className='star'>
+            <img src={require('../images/inUse.svg')} width='12px' />
+          </div>
+          <div className='feedText'>
+            Already helped 2,395 peoples
+          </div>
+      </div>
+
     </div>
   </div>
 )
