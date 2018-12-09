@@ -1,15 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
-import Image from '../components/image'
-
 const IndexPage = () => (
   <div>
     <div className='left-bar'>
 
+
       <div className='logo' >
-        <img src={require('../images/logo.svg')} width='114px' />
+        <img src={require('../images/logo.svg')} width='114px' alt="logo"/>
       </div>
 
       <div className='gq'>
@@ -45,7 +43,7 @@ const IndexPage = () => (
       <div className='feedback'>
         <Link to='#'>
           <div className='star'>
-            <img src={require('../images/feedback.svg')} width='12px' />
+            <img src={require('../images/feedback.svg')} width='12px' alt="feedback"/>
           </div>
           <div className='feedText'>
             Leave a feedback
@@ -102,7 +100,7 @@ const IndexPage = () => (
 
       <div className='goal'>
         <div className='goalDays'>
-            <h3>Cuurent goal is 28 days 🤘</h3>
+            <h3>Cuurent goal is 28 days <span role="img" aria-label="cool">🤘</span></h3>
         </div>
         <div className='loader'>
           <div className='loaderActive'>
@@ -134,7 +132,7 @@ const IndexPage = () => (
 
       <div className='feedback'>
           <div className='star'>
-            <img src={require('../images/inUse.svg')} width='12px' />
+            <img src={require('../images/inUse.svg')} width='12px' alt="star"/>
           </div>
           <div className='feedText'>
             Already helped 2,395 peoples
@@ -147,30 +145,30 @@ const IndexPage = () => (
     <div className='main'>
 
       <div className='badget'>
-        <img src={require('../images/medal.png')} width='460px' />
+        <img src={require('../images/medal.png')} width='460px' alt="badget"/>
       </div>
 
       <div className='cheers'>
         <p>This is your last badget. Earned 27/11/2018</p>
         <div className='text'>
-          <h3>Be proud and share your resault 😎</h3>
+          <h3>Be proud and share your resault <span role="img" aria-label="man">😎</span></h3>
         </div>
 
         <div className='social'>
           <ul className='socialIcon'>
             <li>
               <Link to='#'>
-                <img src={require('../images/facebook.svg')} width='18px' />
+                <img src={require('../images/facebook.svg')} width='18px' alt="facebook"/>
               </Link>
             </li>
             <li>
               <Link to='#'>
-                <img src={require('../images/twitter.svg')} width='21px' />
+                <img src={require('../images/twitter.svg')} width='21px' alt="twitter"/>
               </Link>
             </li>
             <li>
               <Link to='#'>
-                <img src={require('../images/instagram.svg')} width='18px' />
+                <img src={require('../images/instagram.svg')} width='18px' alt="instagram"/>
               </Link>
             </li>
           </ul>
@@ -182,8 +180,6 @@ const IndexPage = () => (
 
       </div>
       </div>
-
-
 
   </div>
 )
